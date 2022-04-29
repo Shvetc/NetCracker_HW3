@@ -6,11 +6,10 @@ import java.util.stream.IntStream;
 
 public class Student {
     String name;
-    List<Integer> quizScore;
+    List<Integer> quizScore = new ArrayList<>();
 
     public Student(String name) {
         this.name = name;
-        quizScore = new ArrayList<>();
     }
 
     public String getName() {

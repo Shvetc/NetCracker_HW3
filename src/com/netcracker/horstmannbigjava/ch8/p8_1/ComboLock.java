@@ -35,10 +35,18 @@ public class ComboLock {
     public void turnRight(int ticks) {
         if ((countNumbers == 0) || (countNumbers == 2)) {
             int currentDial = dial + ticks;
-            dial = (currentDial >= 0) ? currentDial > 40 ? currentDial - 40 : currentDial : 40 + currentDial;
+            dial = getCorrectDirectionOfDial(currentDial);
             numbers[countNumbers] = dial;
         }
         countNumbers++;
+    }
+
+    private int getCorrectDirectionOfDial(int currentDial) {
+        return (currentDial >= 0) ? updateDirectionIfNewRound(currentDial) : 40 + currentDial;
+    }
+
+    private int updateDirectionIfNewRound(int currentDial) {
+        return currentDial > 40 ? currentDial - 40 : currentDial;
     }
 
     public boolean open() {

@@ -32,8 +32,11 @@ public class Person {
             stringNames.append(myFriends.next().getName());
             stringNames.append(" ");
         }
-        return !friends.isEmpty() ? "Dima has " + getFriendCount() + " friends: " +
-                stringNames.toString() : this.name + " has not friends";
+
+        String strWithFriendNames = "Dima has " + getFriendCount() + " friends: " + stringNames.toString();
+        String strWithoutFriendNames = this.name + " has not friends";
+
+        return !friends.isEmpty() ? strWithFriendNames : strWithoutFriendNames;
     }
 
     public int getFriendCount() {
