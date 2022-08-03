@@ -3,7 +3,7 @@ Tasks from Cay Horstmann Big Java
 
      
  ******************************
- - Chapter 3: Implementing Classes
+ - Chapter 3: [Implementing Classes](https://github.com/Shvetc/NetCracker_HW3/tree/main/src/com/netcracker/horstmannbigjava/ch3)
  ******************************
 
     -> section "Programming projects"  
@@ -113,7 +113,7 @@ gets the remaining capacity of the battery.
 
  ******************************
 
-- Chapter 8: Designing Classes
+- Chapter 8: [Designing Classes](https://github.com/Shvetc/NetCracker_HW3/tree/main/src/com/netcracker/horstmannbigjava/ch8)
  ******************************
 
     -> section "Programming projects" 
@@ -156,7 +156,7 @@ to the second, and then right to the third.
 
 
  ******************************
-- Chapter 9: Inheritance
+- Chapter 9: [Inheritance](https://github.com/Shvetc/NetCracker_HW3/tree/main/src/com/netcracker/horstmannbigjava/ch9)
  ******************************
 
  
